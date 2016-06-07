@@ -35,7 +35,7 @@ set guioptions-=L
 
 " Colorscheme
 set background=dark
-colorscheme peaksea
+colorscheme ir_black 
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -84,6 +84,7 @@ imap ½ $
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+cnoremap <C-E>		<End>
 " => Parenthesis/bracket
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 vnoremap $1 <esc>`>a)<esc>`<i(<esc>
@@ -141,3 +142,8 @@ endfunc
 func! CurrentFileDir(cmd)
     return a:cmd . " " . expand("%:p:h") . "/"
 endfunc
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => BJORN BJORN BJORN
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+:imap jk <Esc>

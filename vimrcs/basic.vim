@@ -142,11 +142,14 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme peaksea 
 catch
 endtry
 
 set background=dark
+
+"jsx highlighting
+let g:jsx_ext_required = 0
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -182,8 +185,8 @@ set expandtab
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 " Linebreak on 500 characters
 set lbr
