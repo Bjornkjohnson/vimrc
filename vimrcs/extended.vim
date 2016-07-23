@@ -28,10 +28,11 @@ if has("gui_macvim")
 endif
 
 " Disable scrollbars (real hackers don't use scrollbars for navigation!)
-set guioptions-=r
+set guioptions+=r
 set guioptions-=R
 set guioptions-=l
 set guioptions-=L
+set mouse=a
 
 " Colorscheme
 set background=dark
