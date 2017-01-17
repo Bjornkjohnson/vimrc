@@ -148,7 +148,7 @@ endfunc
 " => BJORN BJORN BJORN
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 :imap jk <Esc>
-
 :set relativenumber
 :set number
 let g:syntastic_javascript_checkers = ['eslint']
+
