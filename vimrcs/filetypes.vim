@@ -44,13 +44,3 @@ au FileType javascript inoremap <buffer> $f //--- PH<esc>FP2xi
 "endfunction
 
 
-""""""""""""""""""""""""""""""
-" => CoffeeScript section
-"""""""""""""""""""""""""""""""
-function! CoffeeScriptFold()
-    setl foldmethod=indent
-    setl foldlevelstart=1
-endfunction
-au FileType coffee call CoffeeScriptFold()
-
-au FileType gitcommit call setpos('.', [0, 1, 1, 0])
